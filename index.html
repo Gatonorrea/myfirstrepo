@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="styled-name">Santiago Gutierrez</h1>
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <img src="profile.jpg" alt="Profile Image" class="profile-image">
+        <h2>Hi I'm Santiago</h2>
+        <p>I am a passionate and driven software engineer with six months of hands-on experience in both front-end and back-end development. Throughout my journey, I have honed my skills in creating seamless, user-friendly interfaces, as well as building robust, scalable server-side applications.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="html-logo.png" alt="HTML Logo">
+                <p>HTML</p>
+                <p>3 months of experience</p>
+            </div>
+            <div class="skill">
+                <img src="css-logo.png" alt="CSS Logo">
+                <p>CSS</p>
+                <p>3 months of experience</p>
+            </div>
+            <div class="skill">
+                <img src="js-logo.png" alt="JavaScript Logo">
+                <p>JavaScript</p>
+                <p>3 months of experience</p>
+            </div>
+            <div class="skill">
+                <img src="React.png" alt="HTML Logo">
+                <p>React</p>
+                <p>3 months of experience</p>
+            </div>
+            <div class="skill">
+                <img src="node.png" alt="HTML Logo">
+                <p>Node.js</p>
+                <p>3 months of experience</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>Features:
+
+                Home page with a brief introduction and a photo of yourself
+                
+                - Portfolio section displaying your projects with descriptions and links to live demos or GitHub repositories
+                
+                - About Me section with a more detailed bio and your resume
+                
+                - Contact form that allows visitors to get in touch with you Technologies:
+                
+                -   HTML for the structure
+                
+                -    for styling and layout
+                
+               -    JavaScript for form validation and interactive elements</p>
+        </div>
+        <div class="project">
+            <h3>To-Do List App</h3>
+            <p>Features:
+
+                - Input field to add new tasks
+                
+                - List of tasks with the ability to mark them as completed or delete them
+                
+                - Option to edit existing tasks
+                
+                - Basic filter functionality to show all, completed, or pending tasks Technologies:
+                
+                - HTML for the structure
+                
+                - CSS for styling and layout
+                
+                - JavaScript for handling user interactions and managing the task list</p>
+        </div>
+        <div class="project">
+            <h3>Weather Dashboard</h3>
+            <p>Features:
+
+                - Input field to enter the name of a city
+                
+                - Display of current weather conditions (temperature, humidity, wind speed, etc.)
+                
+                - Option to view the weather forecast for the next few days
+                
+                - Background image or color change based on the weather conditions (e.g., sunny, rainy, cloudy) Technologies:
+                
+                - HTML for the structure
+                
+                - CSS for styling and layout
+                
+                - JavaScript for fetching data from the weather API and updating the UI</p>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <ul id="recommendation-list">
+            <li>Recommendation 1: Carla Rodriguez (Senior Software Engineer)
+                "I've been really impressed with your proactive approach to tackling tasks. You have a great balance of front-end and back-end skills that make you a versatile team member. My advice would be to continue developing your problem-solving skills and never hesitate to ask questions or seek feedback from your peers. It's the best way to grow in this field." </li>
+            <li>Recommendation 2: Luis Martinez (Project Manager)
+                "Your ability to handle both front-end and back-end development is a major asset to the team. One area for improvement could be time management, especially when juggling multiple tasks. Prioritizing and staying organized will help you meet deadlines more effectively. Keep up the great work and stay focused on continuous learning."</li>
+            <li>Recommendation 3: Andrea González (UI/UX Designer)
+                "Your commitment to creating user-friendly interfaces is commendable. I think you should delve deeper into user experience design principles, as they can significantly enhance your front-end development skills. Collaborating more closely with the design team will also give you new insights and improve your overall project outcomes."</li>
+        </ul>
+        <form id="recommendation-form">
+            <label for="new-recommendation">Add a Recommendation:</label>
+            <input type="text" id="new-recommendation" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <a href="#" class="home-icon">🏠</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
